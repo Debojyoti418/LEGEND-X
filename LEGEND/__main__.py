@@ -65,9 +65,13 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [Sophia](https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg)
+Hello there, I'm [HAC BOT](https://telegra.ph/file/c910fbcad677b61c50c2f.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+You can also create and use our 2nd bot Sophia (t.me/yuuko_shinoji_bot)
+Maintained by - 『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★(t.me/DEBOJYOTINO1)
+
+
 
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -81,15 +85,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Sophia to your group 💫",
-            url="t.me/Sophia_1bot?startgroup=true",
+            text="💫 Add HAC BOT to your group 💫",
+            url="t.me/HAC_help_center_bot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [Sophia](https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg)
+*Main Commands :* [HAC BOT](https://telegra.ph/file/c910fbcad677b61c50c2f.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -361,9 +365,9 @@ def LEGEND_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @DEBOJYOTINO1.* "
-            f"\n\n 🔥 Join [Sophia supoort](https://t.me/Animeweebs2) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [HSC SUPPORT](https://t.me/Animeweebs2) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/46a3b6cb0faeb3b8cc0c6.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/7cd5c42e3b3ce3187afcf.mp4)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
