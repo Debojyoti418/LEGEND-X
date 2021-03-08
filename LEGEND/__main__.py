@@ -68,8 +68,7 @@ PM_START_TEXT = """
 Hello there, I'm [HAC BOT](https://telegra.ph/file/c910fbcad677b61c50c2f.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
-You can also create and use our 2nd bot Sophia (t.me/yuuko_shinoji_bot)
-Maintained by - 『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★(t.me/DEBOJYOTINO1)
+
 
 
 
